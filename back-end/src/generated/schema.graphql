@@ -3,5 +3,6 @@
 
 
 type Query {
-  ok: Boolean!
+  user: String
+  users: String
 }

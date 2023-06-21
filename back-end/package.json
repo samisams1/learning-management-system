@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only --no-notify src/server.ts",
+    "dev": "ts-node-dev --transpile-only --no-notify  src/server.ts",
     "build": "tsc"
   },
   "dependencies": {
@@ -14,7 +14,8 @@
     "graphql": "^15.5.3",
     "graphql-shield": "^7.6.5",
     "jsonwebtoken": "^9.0.0",
-    "nexus": "^1.1.0"
+    "nexus": "^1.1.0",
+    "nodemon": "^2.0.22"
   },
   "devDependencies": {
     "prisma": "^4.15.0",
