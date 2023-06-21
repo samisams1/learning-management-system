@@ -6,7 +6,6 @@ import OnlineCourses from "./OnlineCourses"
 const CourseHome = () => {
   return (
     <>
-    samisams
       <Back title='Explore Courses' />
       <CoursesCard />
       <OnlineCourses />
