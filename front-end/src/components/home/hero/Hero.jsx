@@ -2,9 +2,15 @@ import React from 'react'
 
 const Hero=()=> {
   return (
-    <div>
-      
-    </div>
+    <>
+    <section className='hero'>
+        <div className='container'>
+           <div className='row'>
+                
+           </div>
+        </div>
+    </section>
+    </>
   )
 }
 
