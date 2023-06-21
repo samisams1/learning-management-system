@@ -1,5 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Allcourses, Blog, Contact, Footer, Header, Home, Pricing, Team } from './components';
+import './App.css';
 function App(){
 return(
   <Router>
