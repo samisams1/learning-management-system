@@ -3,6 +3,17 @@
 
 
 type Query {
+  Department: String
+  Departments: String
+  announcements: String
+  classrooms: String
+  course: String
+  courses: String
+  grades: String
+  schedule: String
+  student: String
+  teacher: String
+  teachers: String
   user: String
   users: String
 }

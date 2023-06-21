@@ -48,6 +48,17 @@ export type NexusGenAllTypes = NexusGenRootTypes & NexusGenScalars
 
 export interface NexusGenFieldTypes {
   Query: { // field return type
+    Department: string | null; // String
+    Departments: string | null; // String
+    announcements: string | null; // String
+    classrooms: string | null; // String
+    course: string | null; // String
+    courses: string | null; // String
+    grades: string | null; // String
+    schedule: string | null; // String
+    student: string | null; // String
+    teacher: string | null; // String
+    teachers: string | null; // String
     user: string | null; // String
     users: string | null; // String
   }
@@ -55,6 +66,17 @@ export interface NexusGenFieldTypes {
 
 export interface NexusGenFieldTypeNames {
   Query: { // field return type name
+    Department: 'String'
+    Departments: 'String'
+    announcements: 'String'
+    classrooms: 'String'
+    course: 'String'
+    courses: 'String'
+    grades: 'String'
+    schedule: 'String'
+    student: 'String'
+    teacher: 'String'
+    teachers: 'String'
     user: 'String'
     users: 'String'
   }
