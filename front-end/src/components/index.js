@@ -6,5 +6,6 @@ export {default as Blog} from './blog/Blog';
 export {default as Contact} from './contact/Contact';
 export {default as Footer} from './footer/Footer';
 export {default as Header} from './common/header/Header';
+export {default as About} from './about/About';
 
 
