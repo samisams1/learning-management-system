@@ -10,8 +10,8 @@ return(
     <Routes><Route element={<About/>} path='/about'/></Routes>
     <Routes><Route element={<CourseHome/>} path='courses'/></Routes>
     <Routes><Route element={<Pricing/>} path='pricing'/></Routes>
-    <Routes><Route element={<Blog/>}  path='contact'/></Routes>
-    <Routes><Route element={<Contact/>}  path='contact'/></Routes>
+    <Routes><Route element={<Blog/>}  path='blog'/></Routes>
+    <Routes><Route element={<Contact/>} path='contact'/></Routes>
     <Footer/>
   </Router>
 )
