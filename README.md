@@ -23,7 +23,7 @@ https://github.com/nz-m/eLMS-SWE
 
 ### Features
 The Website
-Student view
+# Student view
 View grades/transcript
 View courses
 View schedule
