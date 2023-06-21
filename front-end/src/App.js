@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Allcourses, Blog, Contact, Footer, Home, Pricing, Team } from './components';
+import { Allcourses, Blog, Contact, Footer, Header, Home, Pricing, Team } from './components';
 function App(){
 return(
   <Router>
+    <Header/>
     <Routes><Route element ={<Home/>}  path=''/></Routes>
     <Routes><Route element={<Team/>} path='/team'/></Routes>
     <Routes><Route element={<Allcourses/>} path='allCourses'/></Routes>
