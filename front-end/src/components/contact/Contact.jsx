@@ -1,10 +1,17 @@
 import React from 'react'
+import Back from '../common/back/Back'
 
 function Contact() {
   return (
+    <>
+   <Back title={"Contatc"} />
+   <section>
     <div>
-      Contact
+      section
     </div>
+   </section>
+    </>
+   
   )
 }
 

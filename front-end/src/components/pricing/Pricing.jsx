@@ -1,10 +1,16 @@
 import React from 'react'
+import Back from '../common/back/Back'
 
-function Pricing() {
+const Pricing=()=> {
   return (
+  <>
+  <Back title='Choose The Right Plan' />
+  <section>
     <div>
-      Pricing
+
     </div>
+  </section>
+  </>
   )
 }
 
